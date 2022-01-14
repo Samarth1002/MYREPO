@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://127.0.0.1:5500/Component/Project.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="./Projects_files/style_project.css">
+  </head>
+  <body cz-shortcut-listen="true">
+    <div>
+      <div>
+        <ul class="ul-list_projects">
+          <li class="li" is-active="">
+            <a class="li-a-1 underline" href="http://127.0.0.1:5500/">Home</a>
+          </li>
+          <li class="li">
+            <a class="li-a-2 underline" href="http://127.0.0.1:5500/about">About me</a>
+          </li>
+          <li class="li">
+            <a class="li-a-3 underline" href="http://127.0.0.1:5500/projects">Projects</a>
+          </li>
+          <li class="li">
+            <a class="li-a-3 underline" href="http://127.0.0.1:5500/contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+
+      <h1 class="heading">Projects</h1>
+      <div class="row">
+        <div class="col">
+          <h2>CalorieFit</h2>
+          <h4>September 2021</h4>
+          <p>
+            Calculate the amount of calories you consume on your daily basis.
+          </p>
+          <div class="btn-container">
+            <button type="submit" class="btn-primary">Live Project</button>
+            <button type="submit" class="btn-secondary">View Code</button>
+          </div>
+        </div>
+        <div class="col">
+          <h2>CalorieFit</h2>
+          <h4>September 2021</h4>
+          <p>
+            Calculate the amount of calories you consume on your daily basis.
+          </p>
+          <div class="btn-container">
+            <button type="submit" class="btn-primary">Live Project</button>
+            <button type="submit" class="btn-secondary">View Code</button>
+          </div>
+        </div>
+        <div class="col">
+          <h2>CalorieFit</h2>
+          <h4>September 2021</h4>
+          <p>
+            Calculate the amount of calories you consume on your daily basis.
+          </p>
+          <div class="btn-container">
+            <button type="submit" class="btn-primary">Live Project</button>
+            <button type="submit" class="btn-secondary">View Code</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./Projects_files/script.js.download"></script>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
