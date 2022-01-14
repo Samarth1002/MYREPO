@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(114, 107, 107);
+  background-color: rgb(129, 119, 119);
 }
 .container {
   border: 1px solid black;
@@ -30,6 +30,7 @@ body {
 .underline {
   text-decoration: none;
   color: aliceblue;
+  font-size: 1.3rem;
 }
 .li > a {
   color: #000;
@@ -76,11 +77,12 @@ h4 {
 }
 
 .btn-container {
-  border: 2px solid yellow;
+  border: 2px solid rgb(0, 255, 21);
   display: flex;
   margin: 10px;
   padding: 10px;
   margin: auto;
+  width: 100%;
 }
 
 .btn-primary {
@@ -111,4 +113,53 @@ h4 {
   margin-top: 3rem;
   font-size: 25px;
   padding: 0.5rem;
+}
+
+.ul-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style-type: none;
+  background-color: #6c63ff;
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .ul-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .navbar-bar-toggler-icon {
+    display: none;
+  }
+
+  .navbar-close-toggler-icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .navbar-bar-toggler-icon {
+    display: flex;
+  }
+  .navbar-close-toggler-icon {
+    display: none;
+  }
+  .li {
+    display: none;
+  }
+}
+@media screen and (min-width: 601px) {
+  .navbar-close-toggler-icon > img {
+    display: none;
+  }
+  .navbar-bar-toggler-icon > img {
+    display: none;
+  }
 }

@@ -10,7 +10,7 @@
   <body>
     <div>
       <div>
-        <ul class="ul-list_projects">
+        <ul class="ul-list">
           <li class="li" is-active>
             <a class="li-a-1 underline" href="/">Home</a>
           </li>
@@ -23,7 +23,31 @@
           <li class="li">
             <a class="li-a-3 underline" href="/contact">Contact Me</a>
           </li>
+
+          <a href="" class="navbar-bar-toggler-icon">
+            <img
+              src="/Images/icons8-menu.svg"
+              height="50px"
+              width="50px"
+              alt=""
+            />
+          </a>
+
+          <a href="" class="navbar-close-toggler-icon">
+            <img
+              src="/Images/icons8-close.svg"
+              height="50px"
+              width="50px"
+              alt=""
+            />
+          </a>
         </ul>
+        <sidebar class="sidebar-container">
+          <a href="" class="sidebar-items">Home</a>
+          <a href="" class="sidebar-items">About</a>
+          <a href="" class="sidebar-items">Projects</a>
+          <a href="" class="sidebar-items">Connect</a>
+        </sidebar>
       </div>
 
       <h1 class="heading">Projects</h1>
@@ -51,11 +75,9 @@
           </div>
         </div>
         <div class="col">
-          <h2>CalorieFit</h2>
+          <h2>GIPHY TALK</h2>
           <h4>September 2021</h4>
-          <p>
-            Calculate the amount of calories you consume on your daily basis.
-          </p>
+          <p>Hangout with some cool giphy's and if like it than share it.</p>
           <div class="btn-container">
             <button type="submit" class="btn-primary">Live Project</button>
             <button type="submit" class="btn-secondary">View Code</button>
@@ -70,6 +92,6 @@
         </p>
       </div>
     </footer>
-    <script src="../script.js"></script>
+    <script src="proj_scripts.js"></script>
   </body>
 </html>

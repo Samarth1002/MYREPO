@@ -1,5 +1,5 @@
 const navContainer = document.querySelector(".navbarContainer")
-console.log(navContainer.style.display);
+// console.log(navContainer.style.display);
 
 const closeTogglerIcon = document.querySelector('.navbar-close-toggler-icon')
 
@@ -30,4 +30,4 @@ const handleCloseClicks = (e) => {
 }
 
 togglerIcon.addEventListener('click', handleBarClicks);
-
+console.log("togglerIcon", togglerIcon);
