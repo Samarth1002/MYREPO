@@ -7,6 +7,10 @@ console.log(closeToggler);
 const navCnt = document.querySelector('.ul-list')
 console.log("nav items", navCnt);
 
+const sidebarCnt = document.querySelector(".sidebar-container")
+
+const sidebarItems = document.querySelector('.sidebar-items')
+
 const handleBarClick = (e) => {
     e.preventDefault();
     const barDisplay = window.getComputedStyle(barToggler).display.value = "none";
@@ -16,6 +20,10 @@ const handleBarClick = (e) => {
     const closeDisplay = window.getComputedStyle(closeToggler).display.value = "flex";
 
     closeToggler.style.display = closeDisplay;
+
+    const sidebarCntDisplay = window.getComputedStyle(sidebarCnt).display.value = "flex"
+
+    sidebarCnt.style.display = sidebarCntDisplay
 
 }
 
@@ -27,6 +35,7 @@ const handleCloseClicks = (e) => {
 
     closeToggler.style.display = window.getComputedStyle(closeToggler).display.value = "none";
 
+    sidebarCnt.style.display = window.getComputedStyle(sidebarCnt).display.value = "none    "
 }
 
 barToggler.addEventListener('click', handleBarClick);

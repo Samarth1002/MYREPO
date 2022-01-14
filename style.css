@@ -1,10 +1,13 @@
-  * {
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 .ul-list {
+  font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -22,6 +25,8 @@
   justify-content: center;
   height: 5rem;
   align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 .underline {
   text-decoration: none;
@@ -72,6 +77,8 @@
   width: 80%;
   margin: auto;
   font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .r-1-c-2-text {
@@ -142,6 +149,11 @@
   text-align: center;
   font-size: 30px;
 }
+.r-2-c-2-p {
+  font-family: "Roboto", sans-serif;
+  padding: 3rem;
+  width: 100%;
+}
 
 .rowThree {
   margin-top: 2rem;
@@ -152,6 +164,8 @@
   align-items: center;
   height: 35rem;
   flex-direction: row;
+  font-family: "Roboto", sans-serif;
+  padding: 3rem;
 }
 
 .r-3-c-1 {
@@ -184,6 +198,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  /* font-family: "Roboto", sans-serif; */
+
 }
 
 .project-btn {
@@ -192,6 +208,9 @@
   padding: 10px 30px;
   cursor: pointer;
   font-size: 20px;
+  font-family: "Roboto", sans-serif;
+
+  
 }
 
 .project-heading {
@@ -315,6 +334,7 @@
 @media screen and (max-width: 810px) {
   .li {
     display: none;
+    color: #ffffff;
   }
   .navbar-toggler-icon {
     display: flex;
@@ -403,7 +423,6 @@
   }
   .navbar-bar-toggler-icon {
     display: flex;
-    /* border: 1px solid; */
     width: 100%;
     margin: auto;
     justify-content: center;
@@ -412,7 +431,6 @@
 
   .navbar-close-toggler-icon {
     display: none;
-    border: 1px solid;
     width: 100%;
     margin: auto;
     justify-content: center;
@@ -423,6 +441,7 @@
 @media screen and (min-width: 800px) {
   ul.list {
     display: flex;
+    color: #ffffff;
   }
   .navbar-bar-toggler-icon {
     display: none;
@@ -448,15 +467,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
 }
 .nav-items {
   padding: 1rem;
-  width: 40%;
-  background-color: #0ac;
+  width: 100%;
+  background-color: #6c63ff;
   font-size: 1rem;
   text-align: center;
   text-decoration-line: none;
-  /* margin: 2px; */
+  color: #ffffff;
 }
