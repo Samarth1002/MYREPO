@@ -12,9 +12,9 @@
 
       <ul class="ul-list ">
         <li class="li" is-active ><a class="li-a-1 underline" href="/" >Home</a></li>
-        <li class="li"><a class="li-a-2 underline" href="/about">About me</a></li>
+        <li class="li"><a class="li-a-2 underline" href="#row-2">About me</a></li>
         <li class="li"><a class="li-a-3 underline" href="/Component/Project.html">Projects</a></li>
-        <li class="li"><a class="li-a-3 underline" href="/contact">Let's Connect</a></li>
+        <li class="li"><a class="li-a-3 underline" href="#row-4">Let's Connect</a></li>
        
         <a href="" class="navbar-bar-toggler-icon bar-icon">
             <img src="./Images/icons8-menu.svg" height="50px" width="50px" alt="" class="bar-icon" />
@@ -28,10 +28,10 @@
     </ul>
       <navSideBar>
         <div class="navbarContainer">
-            <a class="nav-items"  href="/">Home</a>
-             <a class="nav-items"  href="/about">About</a>
+            <a class="nav-items"  href="">Home</a>
+             <a class="nav-items" href="#row-2">About</a>
             <a class="nav-items"  href="/Component/Project.html">Projects</a>
-            <a class="nav-items"  href="/connect">Connect</a>
+            <a class="nav-items"  href="#row-4">Let's Connect</a>
         </div>
     </navSideBar>
     
@@ -42,7 +42,7 @@
     </header>   
 
     <mainsection>
-        <div class="rowOne">
+        <div class="rowOne" id="row-1">
             <div class="r-1-c-1">
                 <div class="r-1-c-1-text"> <p class="r-1-c-1-p">
                     Hi I am <strong>Samarthanand Kamble</strong> an aspiring <strong>web developer</strong>.Currently pursuing my bachelors degree.As by my interest and course carved my learning path towards coding,through which I got exposure in variety of technologies.Currently I am situated in <strong>Maharashtra</strong> . 
@@ -53,14 +53,14 @@
         </div>
     
         </mainsection>
-    <technologiesSection>
+    <technologiesSection id="row-2">
         <h2 class="technologies-heading">Technologies</h2>
-        <div class="rowTow">
+        <div class="rowTow" >
             <div class="r-2-c-1">
                     <img  class="r-2-c-1-text" src="./Images/undraw_static_assets_rpm6.svg" height="450px" width="700px" alt="html,css,js images goes here"  />
                     <img class="r-2-c-1-text react-icon"src="./Images/undraw_react_y-7-wq.svg"  height="300px" width="400px" alt="react-icon" />
             </div>
-            <div class="r-2-c-2">
+            <div class="r-2-c-2"  >
             <div class="r-2-c-2-text"> 
                 <p class="r-2-c-2-p">
                 As a web Developer I am more fascinated towards frontend technologies.
@@ -73,7 +73,7 @@
 
         <projectSection>
     <h2 class="project-heading">Projects</h2>
-    <div class="rowThree">
+    <div class="rowThree" id="row-3">
             <div class="r-3-c-1">
                 <div class="r-3-c-1-text">
                     <p class="r-3-c-1-p">These days technologies are changing rapidly,so you just cant stick to one for long. Keeping this in mind I decided to level up the fundamental,and the possible way to do is to make projects,and I am getting towards it.</p>
@@ -92,11 +92,11 @@
 
     </projectSection>
 
-    <contactSection>
+    <contactSection id="row-4">
         <div class="connect-heading">
             Let's take a &#60;br&#62; and have some fun.
         </div>
-        <div class="rowFour">
+        <div class="rowFour" >
             <div class="r-4-c-1">
                 <p class="r-4-c-1-text">
                     <img src="./Images/undraw_skateboard_d6or.svg" height="300px" width="600px" alt="contact me images" class="skate-board-svg" >
@@ -115,7 +115,7 @@
 
 
 <footer>
-    <div class="footer">
+    <div class="footer" id="row-5">
         <p class="footerText">Site under Construction , I'll keep updating.</p>
     </div>
 </footer>

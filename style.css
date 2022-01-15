@@ -22,6 +22,10 @@
   color: #ffffff;
 }
 
+.nav-items {
+  font-family: "Roboto", sans-serif;
+}
+
 .heading-text {
   /* border: 2px solid; */
   margin-top: 1rem;
