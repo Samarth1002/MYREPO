@@ -445,9 +445,8 @@
   }
   .r-2-c-2-p {
     position: relative;
-    top: -9rem;
+    top: -6rem;
     width: 100%;
-}
   }
 
   .rowThree {
@@ -505,6 +504,19 @@
   text-align: center;
 }
 
+@media screen and (max-width: 400px) {
+  .react-icon {
+    position: relative;
+    top: -1rem;
+  }
+  .project-heading {
+    margin-bottom: 4rem;
+  }
+  .r-3-c-2-text {
+    height: 100%;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .r-1-c-2-text {
     margin: 5rem auto;
@@ -523,12 +535,8 @@
   .connect-heading {
     margin: 10rem auto 0 0;
   }
-  .react-icon{
-    position: relative;
-    top: -1rem;
-  }
-  .project-heading{
-    margin-bottom: 1rem;
+  .r-2-c-2-p {
+    padding: 1.5rem;
   }
 }
 
