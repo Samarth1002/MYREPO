@@ -519,7 +519,7 @@
 
 @media screen and (max-width: 500px) {
   .r-1-c-2-text {
-    margin: 5rem auto;
+    margin: 4rem auto;
   }
   .study-icon {
     position: relative;
@@ -538,6 +538,13 @@
   .r-2-c-2-p {
     padding: 1.5rem;
   }
+  .project-heading{
+    margin-bottom: -2rem;
+  }
+  .rowTwo{
+    height: 100%;
+  }
+
 }
 
 .navbarContainer {
