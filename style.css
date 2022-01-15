@@ -523,6 +523,10 @@
   .connect-heading {
     margin: 10rem auto 0 0;
   }
+  .react-icon{
+    position: relative;
+    top: -1rem;
+  }
 }
 
 .navbarContainer {
