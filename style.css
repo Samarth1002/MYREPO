@@ -445,8 +445,9 @@
   }
   .r-2-c-2-p {
     position: relative;
-    top: -6rem;
-    width: 85%;
+    top: -9rem;
+    width: 100%;
+}
   }
 
   .rowThree {
