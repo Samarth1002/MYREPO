@@ -104,14 +104,15 @@
 }
 
 .rowTow {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   /* border: 2px solid rgb(23, 26, 216); */
-  height: 40rem;
+  height: 38rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
+  background-color: #7d77e5;
 }
 
 .r-2-c-1 {
@@ -123,6 +124,8 @@
 
 .r-2-c-1-text {
   width: 100%;
+  position: relative;
+  top: -2rem;
 }
 
 .r-1-c-2-text {
@@ -136,7 +139,7 @@
 
 .react-icon {
   position: relative;
-  top: -3rem;
+  top: -4rem;
   margin: auto;
   /* border: 1px solid tomato; */
 }
@@ -227,6 +230,7 @@
   color: #ffffff;
   text-decoration: none;
   font-size: 25px;
+  text-align: center;
 }
 
 .btn-cnt {
@@ -245,6 +249,7 @@
 }
 
 .technologies-heading {
+  padding: 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -253,6 +258,7 @@
   font-weight: 700;
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
+  background-color: #7d77e5;
 }
 
 .connect-heading {
@@ -371,7 +377,7 @@
   }
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 800px) {
   .li {
     display: none;
     color: #ffffff;
@@ -483,15 +489,13 @@
     display: flex;
     color: #ffffff;
   }
+
+  .navbarContainer,
+  .close-icon,
+  .nav-items,
+  .bar-icon,
+  .navbar-close-toggler-icon,
   .navbar-bar-toggler-icon {
-    display: none;
-  }
-
-  .navbar-close-toggler-icon {
-    display: none;
-  }
-
-  .bar-icon {
     display: none;
   }
 }
