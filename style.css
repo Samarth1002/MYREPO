@@ -527,6 +527,9 @@
     position: relative;
     top: -1rem;
   }
+  .project-heading{
+    margin-bottom: 1rem;
+  }
 }
 
 .navbarContainer {
