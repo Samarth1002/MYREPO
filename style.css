@@ -510,11 +510,22 @@
     top: -1rem;
   }
 
+  .r-3-c-1-p {
+    margin-top: 1rem;
+  }
+
+  .r-3-c-1-text {
+    margin-top: -5rem;
+  }
+
   .r-3-c-2-text {
     height: 100%;
   }
-  .rowThree{
-    margin-bottom: 16rem;
+  .rowTow {
+    height: 50rem;
+  }
+  .rowThree {
+    margin-bottom: 22rem;
   }
 }
 
