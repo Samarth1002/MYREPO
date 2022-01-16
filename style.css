@@ -513,6 +513,9 @@
   .r-3-c-2-text {
     height: 100%;
   }
+  .rowThree{
+    margin-bottom: 16rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -535,16 +538,16 @@
   }
   .r-2-c-2-p {
     padding: 1.5rem;
-    margin-top: -7rem;
+    margin-top: -6rem;
   }
   .project-heading {
     margin-bottom: -7rem;
   }
   .rowTwo {
-    height: 100%;
+    height: 45rem;
   }
   .r-3-c-1-p {
-    margin-top: 10rem;
+    margin-top: 13rem;
   }
 }
 
