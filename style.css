@@ -509,9 +509,7 @@
     position: relative;
     top: -1rem;
   }
-  .project-heading {
-    /* margin-bottom: 2rem; */
-  }
+
   .r-3-c-2-text {
     height: 100%;
   }
@@ -544,6 +542,15 @@
   }
   .rowTwo {
     height: 100%;
+  }
+  .r-3-c-1-p {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .rowTow {
+    height: 42rem;
   }
 }
 
