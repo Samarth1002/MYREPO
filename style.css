@@ -496,7 +496,9 @@
 @media screen and (min-width: 600px) {
   .navbar-bar-toggler-icon,
   .bar-icon,
-  .navbar-close-toggler-icon {
+  .navbar-close-toggler-icon,
+  .close-icon,
+  .nav-items {
     display: none;
   }
 }
